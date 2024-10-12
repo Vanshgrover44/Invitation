@@ -18,7 +18,6 @@ const Dashboard = () => {
           <button>Create course</button>
           <button>Preview home page</button>
           <button onClick={invitation}>Invitation page </button>
-          {/* <button onClick={handleInviteClick}>Inviation price calculator</button> */}
         </div>
       </header>
       <main className="dashboard-main">
