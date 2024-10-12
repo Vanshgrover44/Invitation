@@ -5,9 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Dashboard = () => {
   const navigate = useNavigate();
 
-  const handleInviteClick = () => {
-    navigate("/Invite");
-  };
+  
   const invitation = ()=>{
     navigate("/invitation")
   }
